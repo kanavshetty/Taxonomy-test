@@ -57,7 +57,7 @@ def add_metadata_to_pdf(input_pdf_path, output_pdf_path, tag_data):
 input_pdf = "Z:/13_Case Studies/02_CCHMC/12U – iTransition (Children's Hospital)/12SU - iTransition Case Study.pdf"  # PDF from uploaded file
 output_pdf = "Z:/13_Case Studies/02_CCHMC/12U – iTransition (Children's Hospital)/12SU - iTransition Case Study_with_metadata.pdf"  # Output PDF path
 # Predefined tags to look for in the document
-predefined_tags = ["The Challenge", "The Approach", "The Results"]
+predefined_tags = ["The Challenge", "The Approach", "The Results", "Outcomes"]
 # Read the PDF and extract text
 text = read_pdf(input_pdf)
 # Extract relevant information based on predefined tags
