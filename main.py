@@ -90,7 +90,7 @@ input_pdf = "Z:/13_Case Studies/02_CCHMC/12U – iTransition (Children's Hospita
 output_pdf = "Z:/13_Case Studies/02_CCHMC/12U – iTransition (Children's Hospital)/12SU - iTransition Case Study_with_metadata.pdf"  # Output PDF path
 
 # Predefined tags to look for in the document
-predefined_tags = ["The Challenge", "The Approach", "The Results", "Outcomes", "Create"]
+predefined_tags = ["The Challenge", "The Approach", "The Results", "Outcomes", "create", "Results", "Refine", "Create", "Impact", "Tools", "Approach", "The Process", ]
 
 # Extract bold text from the PDF
 bold_text = extract_bold_text_from_pdf(input_pdf)
